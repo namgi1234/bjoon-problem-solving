@@ -1,5 +1,2 @@
 import math
-
-n = int(input())
-
-print(math.factorial(n))
+print(math.factorial(int(input())))
