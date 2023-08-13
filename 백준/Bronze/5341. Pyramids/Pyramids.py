@@ -7,4 +7,4 @@ while True:
     if number == 0:
         break
         
-    print(Pyramids(number=number))
+    print(Pyramids(number))
