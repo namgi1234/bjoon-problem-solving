@@ -2,7 +2,7 @@
 
 [문제 링크](https://www.acmicpc.net/problem/27439) 
 
-## python 짱 이딴걸 왜 c로 하래 ㅅㅂ
+### python이 짱인데 이딴걸 왜 c로 하래 ㅅㅂ
 
  <p>이 문제는 c나 c++로만 코드를 작성해야 채점해준다. 시1발 ㅋㅋ 그래서 python으로 코드를 작성한 후 변환 함.</p>
 
