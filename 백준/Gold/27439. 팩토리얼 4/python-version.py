@@ -59,6 +59,8 @@ def Sol(l, r):
     mid = (l + r) // 2
     return Mul(Sol(l, mid), Sol(mid + 1, r))
 
+
+
 n = int(input())
 res = Sol(1, n)
 for i in range(len(res)-1, -1, -1):
