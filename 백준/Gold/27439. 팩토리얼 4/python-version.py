@@ -29,8 +29,6 @@ def convolution_fft(a, b):
         a[i] *= iz
     return a
 
-
-
 def convolution(a, b):
     n = len(a)
     m = len(b)
