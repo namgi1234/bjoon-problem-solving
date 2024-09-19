@@ -1,9 +1,6 @@
-def factorial(x):
-    res = 1
-    for i in range(1, x+1):
-        res *= i
-    return res
+import sys
+import math
 
-N, K = map(int, input().split())
+n,k  = map(int,sys.stdin.readline().split())
 
-print((factorial(N) // (factorial(K) * factorial(N-K)))%10007)
+print((math.factorial(n)//(math.factorial(k)*math.factorial(n-k)))%10007)
