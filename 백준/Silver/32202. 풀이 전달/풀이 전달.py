@@ -15,6 +15,5 @@ def count_ways(N):
     
     return dp[N]
 
-# Input reading
 N = int(input())
 print(count_ways(N))
