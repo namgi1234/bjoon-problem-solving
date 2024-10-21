@@ -1,9 +1,12 @@
 N = int(input())
-H = list(map(int, input().split()))
-result = 1
+arr = list(map(int, input().split()))
 
-for i in range(N-1):
-    if H[i] <= H[i+1]:
-        result += 1
+count = 1
 
-print(result)
+for i in range(N):
+    if i == N-1 or arr[i] > arr[i+1]:
+        continue
+    else :
+        count += 1
+
+print(count)
